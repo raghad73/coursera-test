@@ -5,11 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./CSS/bootstrap.css">
-    <link rel="stylesheet" href="./CSS/bootstrab.min.css">
-    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/bootstrab.css">
+    <link rel="stylesheet" href="CSS/bootstrab.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    
 </head>
 <body>
-    
+    <hrader>
+    <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+        <div class="container-fluid"> 
+            <div class="navbar-header">    
+            <div class="navbar-brand">
+                <a href="index.html"><h1>Food,LCC</h1></a>
+            </div>
+        
+         <button type="button" class="visible-xs navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        
+        </div>   
+
+       <div id="collapsable-nav" class="collapse navbar-collapse" >
+        <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs active">
+                <a href="#Chicken"><br class="hidden-xs">Chicken</a>
+            </li>
+            <li class="visible-xs active">
+                <a href="#Beef"><br class="hidden-xs">Beef</a>
+            </li>
+            <li class="visible-xs active">
+                <a href="#Sushi"><br class="hidden-xs">Cushi</a>
+            </li>
+        </ul>
+       </div>   
+    </div>
+    </div>
+    </nav> 
+    <div class="page-header">
+        <h1>Our Menu</h1>
+    </div>   
+</hrader>
+<div id="main-content" class="container">
+    <div id="home-tiles" class="row">
+        <div class="d1 col-md-4 col-sm-6 col-xs-12" id="Chicken">
+            <span class="title">Chicken</span>
+            <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, earum, fugiat, commodi rerum dolorum ipsa molestiae soluta eius aspernatur quam id dignissimos odio unde! Harum adipisci quaerat quidem expedita numquam.</p>
+        </div>
+        <div class=" d2 col-md-4 col-sm-6 col-xs-12" id="Beef">
+            <span class="title">Beef</span>
+            <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, eos tenetur! Consequuntur reprehenderit officia itaque laudantium tenetur! Voluptatibus iure, suscipit voluptates corporis commodi illo nesciunt </p>
+        </div>
+        <div class=" d3 col-md-4 col-sm-12 col-xs-12" id="Sushi">
+            <span class="title">Sushi</span>
+            <p class="p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque iste, consequatur nihil mollitia, quibusdam deleniti culpa molestias veritatis debitis, doloribus cumque eos? Officiis odio quas eum assumenda cumque iure ipsum?</p>
+        </div>
+         
+    </div>
+</div>
 </body>
 </html>
